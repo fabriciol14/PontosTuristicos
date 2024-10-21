@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristo Redentor - Pontos Turísticos do Brasil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0040c9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Merriweather Sans', sans-serif;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tourist-spot {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .tourist-spot img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(50%);
+            transition: filter 0.3s;
+        }
+
+        .tourist-spot:hover img {
+            filter: brightness(100%);
+        }
+
+        .tourist-spot:hover {
+            transform: scale(1.05);
+            opacity: 1;
+        }
+
+        .tourist-spot h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.2em;
+            line-height: 1.8;
+            text-align: justify;
+            padding: 20px;
+            background-color: #e6eefb;
+            border-radius: 10px;
+        }
+
+        .description p {
+            margin-bottom: 15px;
+        }
+
+        .back-home {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            background-color: #0040c9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .back-home a:hover {
+            background-color: #0030a8;
+        }
+
+        /* Estilos responsivos para dispositivos móveis */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .tourist-spot img {
+                height: 250px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 2em;
+            }
+
+            .description {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+
+            .back-home a {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .tourist-spot img {
+                height: 200px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 1.8em;
+            }
+
+            .description {
+                font-size: 1em;
+                padding: 10px;
+            }
+
+            .back-home a {
+                font-size: 0.9em;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html" style="color: white; text-decoration: none;">Pontos Turísticos do Brasil</a></h1>
+    </header>
+
+    <div class="container">
+        <div class="tourist-spot">
+            <img src="cristo-redentor.png" alt="Cristo Redentor">
+            <h2>Cristo Redentor</h2>
+        </div>
+
+        <div class="description">
+            <p><strong>O Cristo Redentor</strong>, majestoso e imponente, é um dos monumentos mais icônicos do mundo, reconhecido internacionalmente como símbolo de fé, esperança e da cidade do <strong>Rio de Janeiro</strong>. Localizado no topo do <strong>Morro do Corcovado</strong>, a uma altitude de 710 metros, a estátua oferece uma vista deslumbrante da cidade, abraçando desde a Baía de Guanabara até as praias de Copacabana e Ipanema.</p>
+
+            <p>Com <strong>38 metros de altura</strong>, sendo 8 metros de pedestal, o Cristo Redentor foi inaugurado em <strong>1931</strong> e declarado <strong>Patrimônio da Humanidade</strong> pela UNESCO. Sua construção, em estilo Art Déco, foi projetada pelo engenheiro brasileiro <strong>Heitor da Silva Costa</strong>, com a colaboração do escultor francês <strong>Paul Landowski</strong>. Feito de concreto armado e revestido por pequenas pedras de pedra-sabão, o monumento demorou cerca de nove anos para ser concluído.</p>
+
+            <p>Além de sua importância religiosa, o Cristo Redentor é um ponto de encontro para turistas e fiéis de todo o mundo, atraindo mais de <strong>2 milhões de visitantes</strong> anualmente. O acesso pode ser feito de diversas maneiras, seja através de um passeio de trem pela <strong>Floresta da Tijuca</strong>, uma das maiores florestas urbanas do mundo, ou através de vans que partem de diversos pontos da cidade.</p>
+
+            <p>A experiência no Cristo Redentor vai além da vista panorâmica. Nos arredores, você pode explorar trilhas ecológicas, visitar o centro de visitantes e participar de celebrações religiosas que ocorrem frequentemente. À noite, o monumento é iluminado, proporcionando uma visão ainda mais imponente e mágica sobre a cidade maravilhosa.</p>
+        </div>
+
+        <div class="back-home">
+            <a href="index.html">Voltar para a página inicial</a>
+        </div>
+    </div>
+
+</body>
+</html>

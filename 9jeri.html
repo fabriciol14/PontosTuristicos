@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenida Paulista - Pontos Turísticos do Brasil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0040c9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Merriweather Sans', sans-serif;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tourist-spot {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .tourist-spot img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(50%);
+            transition: filter 0.3s;
+        }
+
+        .tourist-spot:hover img {
+            filter: brightness(100%);
+        }
+
+        .tourist-spot:hover {
+            transform: scale(1.05);
+            opacity: 1;
+        }
+
+        .tourist-spot h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.2em;
+            line-height: 1.8;
+            text-align: justify;
+            padding: 20px;
+            background-color: #e6eefb;
+            border-radius: 10px;
+        }
+
+        .description p {
+            margin-bottom: 15px;
+        }
+
+        .back-home {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            background-color: #0040c9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .back-home a:hover {
+            background-color: #0030a8;
+        }
+
+        /* Estilos responsivos para dispositivos móveis */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .tourist-spot img {
+                height: 250px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 2em;
+            }
+
+            .description {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+
+            .back-home a {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .tourist-spot img {
+                height: 200px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 1.8em;
+            }
+
+            .description {
+                font-size: 1em;
+                padding: 10px;
+            }
+
+            .back-home a {
+                font-size: 0.9em;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html">Pontos Turísticos do Brasil</a></h1>
+    </header>
+
+    <div class="container">
+        <div class="tourist-spot">
+            <img src="jeri.png" alt="Jericoacoara">
+            <h2>Jericoacoara</h2>
+        </div>
+
+        <div class="description">
+            <p><strong>Jericoacoara</strong>, localizada no estado do Ceará, é uma das praias mais paradisíacas do Brasil e um destino famoso entre turistas nacionais e internacionais. Conhecida por suas impressionantes dunas de areia branca e seu mar cristalino, Jericoacoara é um verdadeiro refúgio para quem busca belezas naturais e tranquilidade.</p>
+        
+            <p>A vila de Jericoacoara, carinhosamente chamada de "Jeri", mantém um charme rústico e acolhedor, com ruas de areia e uma atmosfera descontraída. A praia é cercada por falésias e lagoas, oferecendo uma diversidade de cenários que encantam a todos que a visitam. Um dos pontos mais icônicos é a <strong>Duna do Pôr do Sol</strong>, onde visitantes se reúnem ao final do dia para apreciar a espetacular vista do sol se pondo sobre o mar, criando um espetáculo de cores.</p>
+        
+            <p>Os praticantes de esportes aquáticos também encontram em Jericoacoara um verdadeiro paraíso. A região é famosa por suas condições ideais para a prática de windsurf e kitesurf, atraindo atletas e entusiastas de todo o mundo. As lagoas de Jijoca, como a <strong>Lagoa do Paraíso</strong> e a <strong>Lagoa do Coração</strong>, são perfeitas para relaxar e nadar em águas calmas, além de contarem com redes e bares que servem deliciosos petiscos e bebidas tropicais.</p>
+        
+            <p>Outro destaque de Jericoacoara é a rica biodiversidade da região, que abriga diversas espécies de flora e fauna. Os visitantes podem explorar os arredores por meio de passeios de buggy ou a pé, conhecendo as formações rochosas e as áreas de preservação. O Parque Nacional de Jericoacoara é uma das principais atrações, oferecendo trilhas e oportunidades para observação de aves e animais nativos.</p>
+        
+            <p>A gastronomia em Jericoacoara é igualmente atraente, com restaurantes que oferecem pratos típicos da culinária nordestina, como peixes frescos, frutos do mar e a famosa carne de sol. Os visitantes também podem experimentar a deliciosa <strong>tapioca</strong>, um lanche muito popular na região.</p>
+        
+            <p>Além das belezas naturais e das atividades ao ar livre, Jericoacoara é um lugar onde a cultura e as tradições locais são celebradas. Festivais e eventos culturais, como o <strong>Festival de Jazz</strong> e as festas de São João, atraem muitos visitantes e proporcionam uma imersão na cultura cearense.</p>
+        
+            <p>Apesar de seu crescimento como destino turístico, Jericoacoara tem se esforçado para manter a preservação ambiental e a sustentabilidade, incentivando práticas de turismo responsável. A comunidade local se envolve em projetos de conservação e educação ambiental, visando proteger os recursos naturais da região.</p>
+        
+            <p>Com sua beleza exuberante, atmosfera relaxante e atividades para todos os gostos, Jericoacoara é um destino que deixa uma marca indelével na memória de quem a visita, proporcionando experiências inesquecíveis em um dos lugares mais bonitos do Brasil.</p>
+        </div>
+        
+
+        <div class="back-home">
+            <a href="index.html">Voltar para a página inicial</a>
+        </div>
+    </div>
+
+</body>
+</html>

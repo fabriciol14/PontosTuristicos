@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenida Paulista - Pontos Turísticos do Brasil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0040c9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Merriweather Sans', sans-serif;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tourist-spot {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .tourist-spot img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(50%);
+            transition: filter 0.3s;
+        }
+
+        .tourist-spot:hover img {
+            filter: brightness(100%);
+        }
+
+        .tourist-spot:hover {
+            transform: scale(1.05);
+            opacity: 1;
+        }
+
+        .tourist-spot h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.2em;
+            line-height: 1.8;
+            text-align: justify;
+            padding: 20px;
+            background-color: #e6eefb;
+            border-radius: 10px;
+        }
+
+        .description p {
+            margin-bottom: 15px;
+        }
+
+        .back-home {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            background-color: #0040c9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .back-home a:hover {
+            background-color: #0030a8;
+        }
+
+        /* Estilos responsivos para dispositivos móveis */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .tourist-spot img {
+                height: 250px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 2em;
+            }
+
+            .description {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+
+            .back-home a {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .tourist-spot img {
+                height: 200px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 1.8em;
+            }
+
+            .description {
+                font-size: 1em;
+                padding: 10px;
+            }
+
+            .back-home a {
+                font-size: 0.9em;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html">Pontos Turísticos do Brasil</a></h1>
+    </header>
+
+    <div class="container">
+        <div class="tourist-spot">
+            <img src="fernando-de-noronha.png" alt="Fernando de Noronha">
+            <h2>Fernando de Noronha</h2>
+        </div>
+
+        <div class="description">
+            <p><strong>Fernando de Noronha</strong> é um arquipélago deslumbrante localizado no Oceano Atlântico, a cerca de 354 km da costa nordeste do Brasil. Conhecido por suas praias paradisíacas, águas cristalinas e rica biodiversidade, Fernando de Noronha é um verdadeiro paraíso natural e um dos destinos mais cobiçados do Brasil.</p>
+        
+            <p>A ilha principal, também chamada de Fernando de Noronha, é famosa por suas belezas naturais e pelo ecoturismo. Com uma área de 26 km², o arquipélago é composto por 21 ilhas e ilhotas, cada uma com suas características únicas. O <strong>Parque Nacional Marinho de Fernando de Noronha</strong> protege 70% da área do arquipélago, garantindo a preservação de sua flora e fauna, que incluem espécies raras e ameaçadas, como a tartaruga-de-pente e o golfinho-nariz-de-garrafa.</p>
+        
+            <p>As praias de Fernando de Noronha são espetaculares, com destaque para <strong>Praia do Sancho</strong>, considerada uma das melhores do mundo. Suas águas transparentes e ricas em vida marinha atraem mergulhadores e snorkelers de todas as partes. Outros pontos imperdíveis incluem <strong>Praia da Cacimba do Padre</strong>, famosa pelas ondas perfeitas para o surfe, e <strong>Praia do Leão</strong>, um refúgio tranquilo cercado por natureza exuberante.</p>
+        
+            <p>Os visitantes têm a oportunidade de explorar as belezas do fundo do mar por meio de passeios de mergulho, onde podem nadar entre tartarugas, arraias e coloridos peixes tropicais. As trilhas e passeios guiados pelas trilhas do Parque Nacional também oferecem uma chance de apreciar a flora local, com vegetação nativa e vistas deslumbrantes das falésias e do mar.</p>
+        
+            <p>A cultura local é igualmente rica e pode ser apreciada nos pequenos restaurantes e pousadas que servem pratos típicos da culinária pernambucana. O famoso <strong>peixe fresco</strong>, preparado de diversas maneiras, é uma das principais delícias da gastronomia da ilha. Além disso, a hospitalidade dos moradores e a atmosfera relaxante tornam a experiência ainda mais especial.</p>
+        
+            <p>Fernando de Noronha adota um turismo sustentável e restritivo, limitando o número de visitantes para preservar suas belezas naturais. Os turistas devem pagar uma taxa de preservação ambiental para acessar as atrações da ilha, contribuindo para a conservação do ecossistema local.</p>
+        
+            <p>Além de suas belezas naturais, o arquipélago é conhecido por suas noites estreladas, quando o céu se ilumina com uma infinidade de estrelas. Muitas pessoas se reúnem nas praias para aproveitar a tranquilidade e a beleza do céu nordestino.</p>
+        
+            <p>Com suas paisagens de tirar o fôlego, rica biodiversidade e compromisso com a preservação, Fernando de Noronha é um destino que promete experiências inesquecíveis e um contato profundo com a natureza, tornando-se uma lembrança especial para todos que têm o privilégio de visitá-lo.</p>
+        </div>
+
+        <div class="back-home">
+            <a href="index.html">Voltar para a página inicial</a>
+        </div>
+    </div>
+
+</body>
+</html>

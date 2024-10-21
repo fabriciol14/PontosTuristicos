@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maragogi - Pontos Turísticos do Brasil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0040c9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Merriweather Sans', sans-serif;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tourist-spot {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .tourist-spot img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(50%);
+            transition: filter 0.3s;
+        }
+
+        .tourist-spot:hover img {
+            filter: brightness(100%);
+        }
+
+        .tourist-spot:hover {
+            transform: scale(1.05);
+            opacity: 1;
+        }
+
+        .tourist-spot h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.2em;
+            line-height: 1.8;
+            text-align: justify;
+            padding: 20px;
+            background-color: #e6eefb;
+            border-radius: 10px;
+        }
+
+        .description p {
+            margin-bottom: 15px;
+        }
+
+        .back-home {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            background-color: #0040c9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .back-home a:hover {
+            background-color: #0030a8;
+        }
+
+        /* Estilos responsivos para dispositivos móveis */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .tourist-spot img {
+                height: 250px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 2em;
+            }
+
+            .description {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+
+            .back-home a {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .tourist-spot img {
+                height: 200px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 1.8em;
+            }
+
+            .description {
+                font-size: 1em;
+                padding: 10px;
+            }
+
+            .back-home a {
+                font-size: 0.9em;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html">Pontos Turísticos do Brasil</a></h1>
+    </header>
+
+    <div class="container">
+        <div class="tourist-spot">
+            <img src="maragogi.png" alt="Maragogi">
+            <h2>Maragogi</h2>
+        </div>
+
+        <div class="description">
+            <p><strong>Maragogi</strong> é um dos destinos mais paradisíacos do Brasil, localizado no litoral norte de Alagoas, na região conhecida como <strong>Costa dos Corais</strong>. Famoso por suas praias de águas cristalinas e mornas, Maragogi é um verdadeiro refúgio natural, atraindo turistas em busca de belezas naturais e tranquilidade.</p>
+        
+            <p>Entre os maiores atrativos estão as <strong>piscinas naturais</strong>, formadas durante a maré baixa. Conhecidas como <strong>galés</strong>, essas piscinas permitem que os visitantes mergulhem em águas límpidas, repletas de vida marinha, como peixes coloridos e corais. O snorkeling nas galés é uma das experiências mais recomendadas, onde é possível observar a rica biodiversidade que habita a região.</p>
+        
+            <p>Maragogi não é apenas um destino de praia; é um lugar que oferece um pouco de tudo. Os visitantes podem explorar trilhas em áreas de preservação ambiental, como a <strong>Reserva Biológica de Santa Isabel</strong>, que abriga uma vasta gama de fauna e flora nativas. Também é possível realizar passeios de buggy ou quadriciclo pelas dunas e praias da região, proporcionando uma experiência cheia de aventura e contato com a natureza.</p>
+        
+            <p>A gastronomia local é outro ponto forte de Maragogi. Com uma grande variedade de restaurantes, os turistas podem degustar pratos típicos da culinária alagoana, como o famoso <strong>peixe grelhado</strong> e o <strong>bolo de rolo</strong>, além de frutos do mar frescos, que são a especialidade da região.</p>
+        
+            <p>A infraestrutura turística é excelente, com várias opções de passeios de barco, mergulho com snorkel e cilindro, além de pousadas charmosas e resorts que oferecem conforto e lazer. A hospitalidade dos moradores é outro atrativo que faz com que os visitantes se sintam em casa.</p>
+        
+            <p>Por fim, Maragogi é o destino ideal para quem busca não apenas relaxar em praias paradisíacas, mas também para quem deseja vivenciar experiências inesquecíveis em um dos lugares mais bonitos e acolhedores do Brasil.</p>
+        </div>
+
+        <div class="back-home">
+            <a href="index.html">Voltar para a página inicial</a>
+        </div>
+    </div>
+
+</body>
+</html>

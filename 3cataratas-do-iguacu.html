@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cataratas do Iguaçu - Pontos Turísticos do Brasil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Righteous&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #0040c9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Merriweather Sans', sans-serif;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tourist-spot {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .tourist-spot img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(50%);
+            transition: filter 0.3s;
+        }
+
+        .tourist-spot:hover img {
+            filter: brightness(100%);
+        }
+
+        .tourist-spot:hover {
+            transform: scale(1.05);
+            opacity: 1;
+        }
+
+        .tourist-spot h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 1.2em;
+            line-height: 1.8;
+            text-align: justify;
+            padding: 20px;
+            background-color: #e6eefb;
+            border-radius: 10px;
+        }
+
+        .description p {
+            margin-bottom: 15px;
+        }
+
+        .back-home {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            background-color: #0040c9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .back-home a:hover {
+            background-color: #0030a8;
+        }
+
+        /* Estilos responsivos para dispositivos móveis */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .tourist-spot img {
+                height: 250px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 2em;
+            }
+
+            .description {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+
+            .back-home a {
+                font-size: 1em;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .tourist-spot img {
+                height: 200px;
+            }
+
+            .tourist-spot h2 {
+                font-size: 1.8em;
+            }
+
+            .description {
+                font-size: 1em;
+                padding: 10px;
+            }
+
+            .back-home a {
+                font-size: 0.9em;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html" style="color: white; text-decoration: none;">Pontos Turísticos do Brasil</a></h1>
+    </header>
+
+    <div class="container">
+        <div class="tourist-spot">
+            <img src="cataratas-do-iguacu.png" alt="Cataratas do Iguaçu">
+            <h2>Cataratas do Iguaçu</h2>
+        </div>
+
+        <div class="description">
+            <p><strong>As Cataratas do Iguaçu</strong> estão localizadas no Parque Nacional do Iguaçu, na divisa entre o Brasil e a Argentina, e são um dos destinos turísticos mais espetaculares do mundo. Formadas pelo rio Iguaçu, elas constituem um conjunto de 275 quedas d'água, com até <strong>80 metros de altura</strong>, se estendendo por quase três quilômetros de largura.</p>
+
+            <p>O lado brasileiro das cataratas oferece uma vista panorâmica deslumbrante, com passarelas que levam os visitantes até bem perto das quedas. O destaque é a famosa <strong>Garganta do Diabo</strong>, a maior e mais impressionante de todas as quedas, onde o volume de água atinge seu ápice em um espetáculo natural impressionante.</p>
+
+            <p>O Parque Nacional do Iguaçu, onde as cataratas estão localizadas, foi declarado <strong>Patrimônio Natural da Humanidade</strong> pela UNESCO em 1986, devido à sua biodiversidade. A área é um dos mais importantes redutos de conservação da <strong>Mata Atlântica</strong>, abrigando diversas espécies de fauna e flora, como a onça-pintada, o tucano e a bromélia.</p>
+
+            <p>Além de apreciar as vistas, os visitantes podem realizar diversas atividades, como passeios de barco que levam até a base das quedas, trilhas ecológicas e visitas ao Parque das Aves, um refúgio dedicado à preservação de aves da região.</p>
+        </div>
+
+        <div class="back-home">
+            <a href="index.html">Voltar para a página inicial</a>
+        </div>
+    </div>
+
+</body>
+</html>
